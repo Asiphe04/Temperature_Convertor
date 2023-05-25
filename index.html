@@ -41,24 +41,12 @@
         />
       </div>
       <br />
-      <div class="temp-container">
-        <label for="kelvin">Kelvin:</label>
-        <br />
-        <input
-          onchange="computeTemp(event)"
-          type="number"
-          name="kelvin"
-          id="kelvin"
-          class="input"
-        />
-      </div>
+      
+      <button id="convert" onclick="computeTemp(event)">Convert</button>
       <br />
-      <button onclick="location.reload()">Reset</button>
       <br />
+      <button id="reset" onclick="location.reload()">Reset</button>
     </div>
-    <br />
-    <br />
-    <br />
     <br />
 
     <footer>Copyright, 2023 by Asiphe Ndimlana</footer>
